@@ -12,7 +12,7 @@ COURSES = [
 ]
 
 @app.get("/courses")
-async def read_all_courses():
+async def read_all_courses_test():
     return COURSES
 
 @app.get("/courses/{course_title}")
